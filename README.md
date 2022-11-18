@@ -38,11 +38,12 @@ docker login
 ```
 After login we follow
 
+
 ```
 docker tag <repository_name>:<version> <username>/<repository_name> 
 docker push <username>/<repository_name>
 ```
-wait for the upload
+
 To pull docker image we follow
 
 ```
@@ -52,7 +53,7 @@ We must specify this details in app.py file other docker container won't work
 ```
 app.run(host='0.0.0.0')
 ```
-To Run docker image Here 800 is the localhost portnumber and 5000 is the container port number
+To Run docker image we use the below command, Here 800 is the localhost portnumber and 5000 is the container port number
 
 ```
 docker run -p 5000:800 -e PORT=800 <docker image id>/<repository name>

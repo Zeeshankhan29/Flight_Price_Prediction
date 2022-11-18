@@ -49,7 +49,7 @@ To pull docker image we follow
 ```
 docker pull <user_name>/<repository_name>
 ```
-We must specify this details in app.py file other docker container won't work
+We must specify this details in app.py file otherwise docker container won't work
 ```
 app.run(host='0.0.0.0')
 ```

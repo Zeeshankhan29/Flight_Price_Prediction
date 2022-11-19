@@ -1,6 +1,11 @@
-pandas
-sklearn
+Flask
+Flask-Cors
+Jinja2
+joblib
 numpy
-pickle
+pandas
+scikit-learn
+scipy
 matplotlib
 seaborn
+

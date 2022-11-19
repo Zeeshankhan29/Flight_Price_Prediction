@@ -69,6 +69,8 @@ docker stop <container_id>
 
 ## Conclusion
 
-1.This Project can be used to Analyse the Flight Travel Expenses    2.Random Forest Algorithm is used which gives around 84% of the Accuracy    3.The entire project can be runned on a Docker image                  
+1.This Project can be used to Analyse the Flight Travel Expenses    
+2.Random Forest Algorithm is used which gives around 84% of the Accuracy   
+3.The entire project can be runned on a Docker image                  
 
 

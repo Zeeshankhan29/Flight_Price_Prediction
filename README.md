@@ -1,5 +1,8 @@
 # Flight_Price_Prediction
 This project can be used to Predict the Flight Travelling Expenses 
+![image](https://user-images.githubusercontent.com/95518247/202841381-463c7cb9-1a35-4f74-a600-9409aeefed2d.png)
+![Final_Flight_price](https://user-images.githubusercontent.com/95518247/202841390-b70c151e-e88d-406a-8fe2-9b27efd31beb.png)
+
 
 
 Create virtual Environment

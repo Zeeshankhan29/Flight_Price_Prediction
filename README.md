@@ -71,6 +71,12 @@ To stop docker container
 docker stop <container_id>
 ```
 
+## You can run this Project on a Docker image from Anywhere on a port number 800
+```
+docker pull zeeshankhan29/flight_price
+
+```
+
 ## Conclusion
 
 1.This Project can be used to Analyse the Flight Travel Expenses    

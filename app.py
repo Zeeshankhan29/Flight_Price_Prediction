@@ -1,4 +1,5 @@
 from flask import Flask ,render_template,jsonify,request
+from flask_cors import cross_origin
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
@@ -17,6 +18,7 @@ with open('rf_pickle_file','rb') as f:
 
 
 @app.route('/',methods=['GET','POST'])
+@cross_origin()
 def home():
     return render_template('home.html')
 
@@ -24,6 +26,7 @@ def home():
         
 
 @app.route("/predict", methods = ["GET", "POST"])
+@cross_origin()
 def predict():
     if request.method == "POST":
 
@@ -345,4 +348,4 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=800)

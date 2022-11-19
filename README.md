@@ -56,7 +56,11 @@ app.run(host='0.0.0.0')
 To Run docker image we use the below command, Here 800 is the localhost portnumber and 5000 is the container port number
 
 ```
-docker run -p 5000:800 -e PORT=800 <docker image id>/<repository name>
+docker run -p 5000:800 -e PORT=800 <docker image id> or <repository name>
+
+or
+
+docker run -p 5000:800  <docker image id> or <repository name>
 ```
 To check running docker containers
 ```
